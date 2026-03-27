@@ -168,6 +168,31 @@ export function PortfolioPage() {
           </div>
         </section>
 
+        <section id="education" className="mx-auto w-full max-w-6xl px-6 py-24">
+          <h2 className="mb-10 text-3xl font-semibold">Education</h2>
+          <div className="grid gap-6 md:grid-cols-2">
+            <article className="rounded-2xl border border-zinc-800 bg-zinc-900/50 p-6">
+              <h3 className="text-lg font-semibold text-zinc-100">
+                University of Nottingham
+              </h3>
+              <p className="mt-2 text-sm text-zinc-400">
+                Mechanical Engineering with Mechatronics, Mechatronics,
+                Robotics, and Automation Engineering
+              </p>
+              <p className="mt-2 text-sm text-zinc-500">(2013 - 2017)</p>
+            </article>
+            <article className="rounded-2xl border border-zinc-800 bg-zinc-900/50 p-6">
+              <h3 className="text-lg font-semibold text-zinc-100">
+                Royal Grammar School High Wycombe
+              </h3>
+              <p className="mt-2 text-sm text-zinc-400">
+                Maths, Further Maths, Physics, Design and Technology
+              </p>
+              <p className="mt-2 text-sm text-zinc-500">(2006 - 2013)</p>
+            </article>
+          </div>
+        </section>
+
         <section id="contact" className="mx-auto w-full max-w-6xl px-6 py-24">
           <div className="grid gap-8 rounded-3xl border border-zinc-800/80 bg-zinc-900/40 p-8 lg:grid-cols-[1fr_1.2fr]">
             <div className="space-y-4">
